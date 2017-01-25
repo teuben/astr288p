@@ -1,3 +1,5 @@
+#! /usr/bin/env Rscript
+#
 # This is a script in the R language,
 #     Adapted from
 #           http://www.astro.umd.edu/~harris/ASTR610_F16/linearfit.r
