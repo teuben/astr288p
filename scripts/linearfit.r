@@ -1,5 +1,15 @@
-# This is a script in the R language, taken from http://www.astro.umd.edu/~harris/ASTR610_F16/linearfit.r
+# This is a script in the R language,
+#     Adapted from
+#           http://www.astro.umd.edu/~harris/ASTR610_F16/linearfit.r
 #
+#     To run this within R, start R and type
+#           source('linearfit.r')
+#     and a plot should also appear on the screen.
+#
+#     Or from the Unix commandline
+#           Rscript linearfit.r
+#     in this case the plot will be called Rplots.pdf
+
 # make some data (the # makes a comment in the script)
 x = (1:10)*0.2
 y = x*3-4
