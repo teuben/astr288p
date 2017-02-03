@@ -1,0 +1,32 @@
+# ~/.bash_aliases
+#
+
+# long listing
+alias d='ls -sFl'
+
+# most recent files
+alias dth='ls -lt | head'
+
+# files with sizes and intent
+alias dir='ls -sF'
+
+# biggest files
+alias sdir='ls -sF | sort -rn | head'
+
+# history
+alias h='history'
+alias hgrep='history|grep'
+
+# view files with page forward, backward, and /search
+alias m='less'
+
+# my favorite calculators
+alias i='ipython'
+alias j='jupyter notebook'
+
+# create new directory and change into it (no alias needed now)
+mkcd() {
+  mkdir $1
+  cd $1
+}
+
