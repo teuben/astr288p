@@ -1,5 +1,5 @@
-Lecture 2:  UNIX
-================
+Lecture 2:  UNIX   *** this file is deprecated ; use Lecture2.md ***
+================   =================================================
 
 command line unix vs. desktop unix ('window manager')
   - GUI: a dime a dozen (and they keep changing)
