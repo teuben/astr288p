@@ -18,7 +18,7 @@ you are recommended to walk yourself through these.
   - gnome-terminal         (Gnome Terminal)
   - xfce4-terminal         (XFCE4 terminal)
   - konsole                (KDE terminal)
-  - emacs "M-x shell"      (yes, you can run a terminal inside of emacs)
+  - emacs "M-x shell"      (yes, you can run a terminal inside of emacs, great for logging)
 
 ## Shell options (as defined in /etc/passwd, see /etc/shells)
 CAVEAT: MacOS does not seem to use /etc/passwd (see http://docstore.mik.ua/orelly/unix3/mac/ch03_08.htm)
@@ -28,20 +28,20 @@ CAVEAT: MacOS does not seem to use /etc/passwd (see http://docstore.mik.ua/orell
   - ksh   (korn shell)
   - xonsh (pythonesque shell, cf. ipython)
 
-   Q1: how do you know which shell you are running
+   Q1: how do you know which shell you are running?
 
-   A1: as is often in UNIX, several answers possible
-	* **echo $SHELL**
+   A1: as is often in UNIX, several answers possible, that all need human parsing
+	* **echo $SHELL**  (this is fool proof, run bash after tcsh or vice versa)
 	* **grep $USER /etc/passwd**
 	* **ps**
 
-   Q2: What are the allowed shells on your unix system
+   Q2: What are the allowed shells on your unix system?
    
    A2: **cat /etc/shells**
 
-   Q3: If a shell is not listed in **/etc/shells**, can I still use it
+   Q3: If a shell is not listed in **/etc/shells**, can I still use it?
 
-   A3: yes, simply run it from the current shell (a shell within a shell)
+   A3: yes, simply run it from the current shell (a shell within a shell; see A1)
 
 
 ## Persistent shells with session management (cf. VNC)
@@ -54,7 +54,7 @@ use any of the following programs
 
 
 ## bash
-We differentiate between an *interactive*  vs. *login* shell. 
+We differentiate between an *interactive*  and *login* shell. They are controlled by one or more startup ("rc") files:
    * login:
       * /etc/profile
       * ~/.bash_profile
@@ -106,7 +106,8 @@ If you use the **csh** variety, the **.login** and **.cshrc** files control whic
   whoami              Isn't that obvious?
 ```
 
-## How to get more help:
+## How to get more help for a given COMMAND:
+(this obviously means you know the name of the COMMAND)
 
 ```
   COMMAND --help
@@ -174,7 +175,7 @@ Although it does not matter where you do this, let us keep files in **~/ASTR288P
      touch Data0.txt
      mkdir data0.txt          (testing case sensitivity)
 ```
-  Notice on a Mac this last **mkdir** may have failed. Can you see why?
+  Q1: Notice on a Mac this last **mkdir** may have failed. Can you see why?
   
   2) **echo**
 ```
@@ -182,6 +183,7 @@ Although it does not matter where you do this, let us keep files in **~/ASTR288P
      echo Hello2   >  Data1.txt
      echo Hello3  >>  Data1.txt
 ```
+  Q1: Display the contents of this file using **cat Data1.txt**
   3) **cat**
 ```
      cat > Data2.txt
@@ -195,6 +197,8 @@ Although it does not matter where you do this, let us keep files in **~/ASTR288P
      6 7 14
      ^D
 ```
+  Q1: How do you display what is in the file **Data2.txt**
+  
   4) your favorite **$EDITOR**
 ```
      emacs     (C-x C-c)  or:   ^x^c  to exit
@@ -209,13 +213,13 @@ Although it does not matter where you do this, let us keep files in **~/ASTR288P
 
 Many ways to view a file on the terminal:
 
-     cat       
-     more      ('q' to get out, '?' to get help)
-     less      (/FOO   to search for the word FOO)
+     cat       the whole thing to the terminal
+     more      paging section by section ('q' to get out, '?' to get help)
+     less      "less is a better more" (/FOO   to search for the word FOO)
      tac       (reverses the lines)
 
-     head
-     tail
+     head      the first portion
+     tail      the last portion
 
 ## Extracting/Reducing files:
 
