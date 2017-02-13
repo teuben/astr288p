@@ -23,7 +23,7 @@ for filename in sys.argv[1:]:
       table = [ row for row in table if len(row) ] ## remove empty rows
       if len(table[0]) == 1 :
          plt.plot( [y[0] for y in table ] )
-      for x in xrange(1,len(table[0])):
+      for x in range(1,len(table[0])):
          plt.plot( [ y[0] for y in table ], [ y[x] for y in table ] )
 
 plt.show()
