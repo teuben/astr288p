@@ -326,6 +326,9 @@ then from any other client you will be able to connect to this server (implying 
 ```
 or if you are lucky on a mac, open this URL **vnc://ursa.astro.umd.edu:1** or from the Finder *"CMD + K"*
 
+If the corresponding window looks like something from the 1980s, it is because the default
+window manager (twm) was used. See **~/.vnc/xstartup**
+
 
 ## GRIP
 
@@ -342,4 +345,6 @@ Install and use it as follows
    grip Lecture3.md localhost:6420
 ```
 Because python also has a built-in http (web) server, you can now open a URL on
-[http://localhost:6419](http://localhost:6419)
+[http://localhost:6419](http://localhost:6419), or
+[http://localhost:6420](http://localhost:6420) in the second case. Just make sure
+to use unique port numbers.
