@@ -17,6 +17,8 @@ complicated because mac doesn't honor the traditional /etc/passwd file.
 - Create your class git repo in     **~/ASTR288P/astr288p**
 - Ideally keep your work out of the git repo!
 
+- "ssh ursa.astro.umd.edu ; xterm " : do X windows remote display work?
+
 - we will discuss a weekly list of papers/URLs related to 288P
 
 - HW1 will be in-class on Feb 20.  HW2 will be as scheduled, due on Mar 6
