@@ -38,7 +38,7 @@ Recall from the previous lecture:
 ```
 Q1:  what happens if you left out the 2nd *echo* in the command that created the script?
 
-Q2: the following shell commands do something very convoluted. How would you achive the same result?
+Q2: the following shell commands do something very convoluted. How would you achieve the same result?
 ```
    echo '#! /bin/bash' >> hello
    tac hello  > hello1
@@ -62,7 +62,7 @@ Try the following commands in **ipython** (or **python** if you don't have **ipy
    In [5]:  import admit
    In [6]:  quit
 ```
-At some point you might see the message **no module named**.
+At some point you might see the message **no module named '...'**
 
 
    
@@ -75,16 +75,20 @@ See https://www.continuum.io
 
 ### On Linux:
 ```
+  df .
   wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh 
   bash Miniconda3-latest-Linux-x86_64.sh
 ```
+
+Make sure you do these commands on a locally mounted disk, not NFS (network) mounted!
+
 ### On Mac:
 ```
   curl https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh > Miniconda3-latest-MacOSX-x86_64.sh 
   bash Miniconda3-latest-MacOSX-x86_64.sh
 ```
 and now in common to both Linux and Mac you will answer some questions and at the end
-a modification to your **~/.bashrc** file will be made.
+a modification to your **~/.bashrc** file (linux) or **~/.bash_profile** (mac) will be made.
 ```
   export PATH="$HOME/miniconda3/bin:$PATH"
 ```
@@ -105,8 +109,10 @@ See what modules you have installed:
   conda list
 ```
 
+Q1:  How many modules are now installed (use basic unix tools)
+  
 
-### Hello World! in python
+### "Hello World!" in python
 
 ```
 	echo 'print("Hello World!")' > hello.py
@@ -125,6 +131,8 @@ or even more general
 	#
 	print("Hello World!")
 ```
+
+Q1: What is the difference between the two **#!** versions that *appear* to do the same thing.
 
 ### plotting example
 Previously we created a small dataset **Data2.txt** in the **ASTR288P** directory. This is how it should plot
