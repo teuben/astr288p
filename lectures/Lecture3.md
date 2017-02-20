@@ -91,6 +91,8 @@ and now in common to both Linux and Mac you will answer some questions and at th
 a modification to your **~/.bashrc** file (linux) or **~/.bash_profile** (mac) will be made.
 ```
   export PATH="$HOME/miniconda3/bin:$PATH"
+or
+  setenv PATH "$HOME/miniconda3/bin:$PATH"
 ```
 And now make sure your shell is looking at this new python (e.g. **source ~/.bashrc** for your current shell, or open a new shell):
 ```
