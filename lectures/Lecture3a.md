@@ -8,7 +8,8 @@
 
   - The installation of miniconda (or anaconda) cannot handle a space
     in the directory name. The solution we came up with was a symbolic
-    link. For example:
+    link. For example, if we have a user "Peter 1" on a Mac, we fix this
+    as follows
 ```
     cd  /Users
     sudo ln -s "Peter 1"  Peter_1
