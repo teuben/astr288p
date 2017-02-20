@@ -28,20 +28,20 @@ CAVEAT: MacOS does not seem to use /etc/passwd (see http://docstore.mik.ua/orell
   - ksh   (korn shell)
   - xonsh (pythonesque shell, cf. ipython)
 
-   Q1: how do you know which shell you are running?
+   Q2-1: how do you know which shell you are running?
 
-   A1: as is often in UNIX, several answers possible, that all need human parsing
+   A2-1: as is often in UNIX, several answers possible, that all need human parsing
 	* **echo $SHELL**  (this is fool proof, run bash after tcsh or vice versa)
 	* **grep $USER /etc/passwd**
 	* **ps**
 
-   Q2: What are the allowed shells on your unix system?
+   Q2-2: What are the allowed shells on your unix system?
    
-   A2: **cat /etc/shells**
+   A2-2: **cat /etc/shells**
 
-   Q3: If a shell is not listed in **/etc/shells**, can I still use it?
+   Q2-3: If a shell is not listed in **/etc/shells**, can I still use it?
 
-   A3: yes, simply run it from the current shell (a shell within a shell; see A1)
+   A2-3: yes, simply run it from the current shell (a shell within a shell; see A1)
 
 
 ## Persistent shells with session management (cf. VNC)
@@ -67,9 +67,9 @@ We differentiate between an *interactive*  and *login* shell. They are controlle
   Some of your personal files may already be present when your account was activated. Use
   the **ls -a** command to see these hidden (files starting with a dot) files.
 
-  Q1:  With the **ls -a** command you will also see **.** and **..**    what are those?
+  Q2-4:  With the **ls -a** command you will also see **.** and **..**    what are those?
 
-  A1:  The current directory **.** and the parent directory **..**
+  A2-4:  The current directory **.** and the parent directory **..**
 
 ### Linux and Mac philosophy on interactive and login shells different?
 
@@ -121,7 +121,7 @@ If you use the **csh** variety, the **.login** and **.cshrc** files control whic
   <google>
 ```  
 
-  Q1: man pages have sections (the -s option) to narrow down search
+  Q2-5: man pages have sections (the -s option) to narrow down search
 
 ## Files:  the "ls" command
 
@@ -133,11 +133,11 @@ If you use the **csh** variety, the **.login** and **.cshrc** files control whic
   ls -lt | tac
   ls --full-time
 ```
-  Q1:  what is the | symbol do
+  Q2-6:  what is the | symbol do
 
-  Q2:  what is the 'tac' command?
+  Q2-7:  what is the 'tac' command?
 
-  Q3:  what is all this "." and ".."
+  Q2-8:  what is all this "." and ".."
 
 
 ## Directories:
@@ -175,7 +175,7 @@ Although it does not matter where you do this, let us keep files in **~/ASTR288P
      touch Data0.txt
      mkdir data0.txt          (testing case sensitivity)
 ```
-  Q1: Notice on a Mac this last **mkdir** may have failed. Can you see why?
+  Q2-9: Notice on a Mac this last **mkdir** may have failed. Can you see why?
   
   2) **echo**
 ```
@@ -183,7 +183,8 @@ Although it does not matter where you do this, let us keep files in **~/ASTR288P
      echo Hello2   >  Data1.txt
      echo Hello3  >>  Data1.txt
 ```
-  Q1: Display the contents of this file using **cat Data1.txt**
+  Q2-10: Display the contents of this file using **cat Data1.txt**
+  
   3) **cat**
 ```
      cat > Data2.txt
@@ -197,7 +198,7 @@ Although it does not matter where you do this, let us keep files in **~/ASTR288P
      6 7 14
      ^D
 ```
-  Q1: How do you display what is in the file **Data2.txt**
+  Q2-11: How do you display what is in the file **Data2.txt**
   
   4) your favorite **$EDITOR**
 ```
