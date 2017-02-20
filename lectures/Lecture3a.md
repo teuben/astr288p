@@ -17,21 +17,33 @@
     bash Miniconda....
 ```
 
-- The ubuntu "*add account*" System Settings method does not allow the Username to contain spaces. The **adduser** command has similar restrictions:
+- The ubuntu "*add account*" System Settings method does not allow the Username to contain spaces.
+The **adduser** command has similar restrictions, so the following command would fail:
 ```
 	sudo adduser "space man"
 ```
     
 - ursa accounts are using **/bin/tcsh** as login shell, not
-  **/bin/bash**.  This means you should add your modified command
+  **/bin/bash**, which is commonly the default on most Unix (Mac too) systems.
+  This means you should add your modified command
   search path in the .cshrc file:
 
 ```
 	setenv PATH  $HOME/miniconda3:$PATH
+```
+instead of the bash variant
+```
+	export PATH=$HOME/miniconda3:$PATH
 ```
 and aliases are added without the **=** sign. For example:
 ```
 	alias i ipython
 	alias j "jupyter notebook"
 	alias dth "ls -lt | head"
+```
+instead of the bash variant
+```
+	alias i=ipython
+	alias j="jupyter notebook"
+	alias dth="ls -lt | head"
 ```	

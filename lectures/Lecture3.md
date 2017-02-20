@@ -36,9 +36,9 @@ Recall from the previous lecture:
    chmod +x hello
    hello
 ```
-Q1:  what happens if you left out the 2nd *echo* in the command that created the script?
+Q3-1:  what happens if you left out the 2nd *echo* in the command that created the script?
 
-Q2: the following shell commands do something very convoluted. How would you achieve the same result?
+Q3-2: the following shell commands do something very convoluted. How would you achieve the same result?
 ```
    echo '#! /bin/bash' >> hello
    tac hello  > hello1
@@ -91,6 +91,8 @@ and now in common to both Linux and Mac you will answer some questions and at th
 a modification to your **~/.bashrc** file (linux) or **~/.bash_profile** (mac) will be made.
 ```
   export PATH="$HOME/miniconda3/bin:$PATH"
+or
+  setenv PATH "$HOME/miniconda3/bin:$PATH"
 ```
 And now make sure your shell is looking at this new python (e.g. **source ~/.bashrc** for your current shell, or open a new shell):
 ```
@@ -109,7 +111,7 @@ See what modules you have installed:
   conda list
 ```
 
-Q1:  How many modules are now installed (use basic unix tools)
+Q3-3:  How many modules are now installed (use basic unix tools)
   
 
 ### "Hello World!" in python
@@ -132,7 +134,7 @@ or even more general
 	print("Hello World!")
 ```
 
-Q1: What is the difference between the two **#!** versions that *appear* to do the same thing.
+Q3-4: What is the difference between the two **#!** versions that *appear* to do the same thing.
 
 ### plotting example
 Previously we created a small dataset **Data2.txt** in the **ASTR288P** directory. This is how it should plot
@@ -164,6 +166,6 @@ void main()
 
 ```
 
-Q1:  cut and paste the C code into your own hello.c and compile and run this program
+Q3-5:  cut and paste the C code into your own hello.c and compile and run this program
 
-Q2:  observe the difference between **more** and **cat**
+Q3-6:  observe the difference between **more** and **cat**
