@@ -9,6 +9,7 @@ As always, update your git repo. After last weeks' work, you might see a problem
    cd ~/ASTR288P/astr288p      # make sure you are in one of the 'astr288p' directories
    git status                  # notice something was modified?
    git pull                    # warnings are possible here if there are conflicts
+   
    git stash                   # those modified files are "stashed"
    git pull                    # now get the updates
 ```
@@ -19,7 +20,7 @@ and removing them would have been more efficient, perhaps. So, instead if we do
    rm notebooks/*.*
    git pull
 ```
-But oops, there is more trouble!  The ones that were not modified, and we removed, are now gone,
+But oops, now there is more trouble!  The ones that were not modified, and we removed, are now gone,
 and git claims we're up to date. Surely this must be a git bug? It's actually a feature, perhaps
 somewhat unexpected.
 
@@ -60,4 +61,5 @@ We continue with the ipython notebooks from last week, using the command
 	jupyter notebook
 ```	
 
-we finished **01-intro** last week, but before we continue with **02-flow**, let us examine **01-run**
+we finished **01-intro** last week, but before we continue with **02-flow**, let us examine **01-run**.
+We will then need to finish **03-arrays** and **04-plotting** in order to do **Homework-01** due next week!
