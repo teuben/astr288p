@@ -29,11 +29,11 @@ The **adduser** command has similar restrictions, so the following command would
   search path in the .cshrc file:
 
 ```
-	setenv PATH  $HOME/miniconda3:$PATH
+	setenv PATH  $HOME/miniconda3/bin:$PATH
 ```
 instead of the bash variant
 ```
-	export PATH=$HOME/miniconda3:$PATH
+	export PATH=$HOME/miniconda3/bin:$PATH
 ```
 and aliases are added without the **=** sign. For example:
 ```
