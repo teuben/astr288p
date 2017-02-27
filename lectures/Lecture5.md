@@ -24,9 +24,12 @@ and git claims we're up to date. Surely this must be a git bug? It's actually a 
 somewhat unexpected.
 
 ```
-git checkout origin/master 03-arrays.ipynb
+   git checkout origin/master 03-arrays.ipynb
 ```
-
+The better (and dangerously quiet) way in git to get back to the original version if
+```
+   git checkout 03-arrays.ipynb
+```
 ## Python
 
 ### Official references
@@ -57,4 +60,4 @@ We continue with the ipython notebooks from last week, using the command
 	jupyter notebook
 ```	
 
-look over *01-intro**, and we'll continue with **02-flow**.
+we finished **01-intro** last week, but before we continue with **02-flow**, let us examine **01-run**
