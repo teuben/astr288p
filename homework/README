@@ -1,1 +1,6 @@
 homework assignments can be found here
+
+Copy your homework file (e.g. Homework-01.ipynb) to your home directory on ursa.
+
+Hint: on ursa or the lab machines you can use "cp", but on your laptop you will
+need to use "scp".
