@@ -4,7 +4,7 @@
 #
 
 #  skip "teuben288"
-set students = (aleis288  eschwart  eyates    lpoleto   nanthony  rpopescu cmr221    ewilliam  jcorb288  mvarakia  qgonzale)
+set students = (aleis288  eschwart  eyates   nanthony  rpopescu cmr221    ewilliam  jcorb288  mvarakia  qgonzale)
 
 set machine = ursa.astro.umd.edu
 set home    = /ursa/A288P
@@ -28,5 +28,5 @@ end
 
 echo ""
 echo ""
-echo HOME ok: $hw_1
-echo HOME missing: $hw_0
+echo "HOME ok: [$#hw_1] $hw_1"
+echo "HOME missing: [$#hw_0] $hw_0"
