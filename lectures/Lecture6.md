@@ -73,8 +73,11 @@ A community Python Library...
 
 
 * Images:  FITS files.  (a new file **ngc6503.cube.fits** was added to your astr288p/data directory)
-  * ds9: http://ds9.si.edu/site/Download.html
-  * ginga: https://ginga.readthedocs.io/en/latest/
+  * **ds9**: http://ds9.si.edu/site/Download.html
+    Supports 3D cubes: a 3D slicer comes up autmatically. To bring up a spectrum, select Edit->Region, double click the region (or Region->Get Information)
+    and set Analysis->Plot3D (save in Preferences -> Region -> Auto Plot 3D to make it persistent)
+  * **ginga**: https://ginga.readthedocs.io/en/latest/
+    Supports 3D cubes, but perhaps not as intuitive as ds9
   
 * Tables  (astropy http://docs.astropy.org/en/stable/io/unified.html)
   * ascii tables
