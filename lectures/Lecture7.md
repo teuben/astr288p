@@ -6,7 +6,7 @@ Lecture 7:  ASTROPY
 ## Last Week Homework
 
 
-
+Look at **homework/Homework01_AAA.ipynb**
 
 ## Astronomical Data
 
