@@ -6,7 +6,7 @@ Lecture 8: ORBITS and ODE's
 ## Last Week notebook:
 
 * n6503-case1 : n6503_rms.png produce several methods to estimate the RMS as function of channel.
-* n6503-case1 : smoothing
+* n6503-case1 : smoothing to increase signal to noise and make better masked velocity fields
 * n6503-case1 : saving your results in a FITS file
 
 
