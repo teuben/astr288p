@@ -3,7 +3,7 @@ Lecture 7:  ASTROPY
 
 
 
-## Last Week Homework
+## Homework01
 
 
 Look at **homework/Homework01_AAA.ipynb**
