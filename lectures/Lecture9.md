@@ -3,11 +3,11 @@ Lecture 9: ORBITS and ODE's
 
 ## Homework assignments
 
-Next week, April 10, will be a homework assignment, notebook style, due on Apr 17 before class!
+Next week, April 10, will be a homework assignment, notebook style, **due on Apr 17 before class**!
 
 The final homework will be your selection of a package from http://ascl.net (pick something you like as science, not
-something that looks easy).  There will be in in-class discussion on the cases. This homework is due on May 8,
-at noon , so I can prepare the lecture with your results a few hours later.
+something that looks easy).  There will be in in-class discussion on the cases. This homework is
+**due on May 8, at noon** , so I can prepare the lecture with your results a few hours later.
 Don't pick athena (ascl:1010.014) and don't pick a code you had already used for your research!
 
 In case of doubt: ask me!
