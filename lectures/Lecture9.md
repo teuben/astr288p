@@ -14,6 +14,8 @@ In case of doubt: ask me!
 
 You can work alone, or in groups of 2.
 
+You can also try a [random code from ASCL](http://ascl.net/code/random)
+
 ## Last Week addenda
 
 * **n6503-orbits**: scipy.interpolate.interp2d - forwards projection
