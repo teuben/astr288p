@@ -12,6 +12,8 @@ Don't pick athena (ascl:1010.014) and don't pick a code you had already used for
 
 In case of doubt: ask me!
 
+You can work alone, or in groups of 2.
+
 ## Last Week addenda
 
 * **n6503-orbits**: scipy.interpolate.interp2d - forwards projection
