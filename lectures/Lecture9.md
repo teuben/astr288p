@@ -1,7 +1,7 @@
 Lecture 9: ORBITS and ODE's
 ===========================
 
-## Homework assignements
+## Homework assignments
 
 Next week, April 10, will be a homework assignment, due on Apr 17 before class!
 
