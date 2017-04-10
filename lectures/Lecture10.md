@@ -5,13 +5,14 @@ Lecture 10: ODE's and FITTING
 
 Next week, April 17, the homework-02 assignment is due, notebook style, **due on Apr 17 before class**!
 
-The final homework is due on May 8, and will be a computation with
-your selection of a package from http://ascl.net (pick something you
-like as science, not something that looks easy).  There will be in
-in-class discussion on the cases. This homework is **due on May 8, at
-noon** , so I can prepare the lecture with your results a few hours
-later.  Don't pick athena (ascl:1010.014) and don't pick a code you
-had already used for your research!
+The final homework is due on May 8, and you will show the installation
+and a computation with your selection of a package from
+http://ascl.net (pick something you like as science, not something
+that looks easy).  There will be in in-class presentation and
+discussion on the cases. This homework is **due on May 8, at noon** ,
+so I can prepare the lecture while you show your results a few hours later.
+Don't pick athena (ascl:1010.014) and don't pick a code you had
+already used for your research!
 
 In case of doubt: ask me!
 
