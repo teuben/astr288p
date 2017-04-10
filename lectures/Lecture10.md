@@ -7,10 +7,10 @@ Check out some new entries on http://www.astro.umd.edu/~teuben/ASTR288P/referenc
 
 ## Homework assignments
 
-homework-02 assignment is postponed one week, will be checked into github this week.
+**homework-02** assignment is postponed one week, will be checked into github this week.
 It will be notebook style, as last time, **due on Apr 24 before class**!
 
-The final homework is due on May 8, and you will show the installation
+**homework-03**, the final homework is due on May 8, and you will show the installation
 and a computation with your selection of a package from
 http://ascl.net (pick something you like as science, not something
 that looks easy).  There will be in in-class presentation and
