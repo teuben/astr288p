@@ -1,6 +1,10 @@
 Lecture 10: ODE's and FITTING
 =============================
 
+## References
+
+Check out some new entries on http://www.astro.umd.edu/~teuben/ASTR288P/references.html
+
 ## Homework assignments
 
 homework-02 assignment is postponed one week, will be checked into github this week.
