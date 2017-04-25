@@ -8,7 +8,7 @@ set students = (aleis288  eschwart  eyates   nanthony  rpopescu cmr221    ewilli
 
 set machine = ursa.astro.umd.edu
 set home    = /ursa/A288P
-set hw      = Homework-01
+set hw      = Homework-02
 
 
 
