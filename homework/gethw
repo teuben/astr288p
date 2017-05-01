@@ -11,9 +11,9 @@ set home    = /ursa/A288P
 set hw      = Homework-02
 
 
-
-set hw_0 = ()
-set hw_1 = ()
+# accumulators for reporting
+set hw_0 = ()     # the ones who has not sent in homework
+set hw_1 = ()     # the ones who have sent in homework
 
 foreach s ($students)
   echo -n "$s "
